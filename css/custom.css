@@ -1,0 +1,158 @@
+#loading,
+#results {
+    display: none;
+}
+
+.bs_alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.bs_alert-heading {
+    color: inherit;
+}
+
+.bs_alert-link {
+    font-weight: 700;
+}
+
+.bs_alert-dismissible {
+    padding-right: 4rem;
+}
+
+.bs_alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75rem 1.25rem;
+    color: inherit;
+}
+
+.bs_alert-primary {
+    color: #081529;
+    background-color: #cfd4dc;
+    border-color: #bcc3cd;
+}
+
+.bs_alert-primary hr {
+    border-top-color: #adb6c2;
+}
+
+.bs_alert-primary .bs_alert-link {
+    color: black;
+}
+
+.bs_alert-secondary {
+    color: #196953;
+    background-color: #d6f4ec;
+    border-color: #c5f0e4;
+}
+
+.bs_alert-secondary hr {
+    border-top-color: #b1ebdb;
+}
+
+.bs_alert-secondary .bs_alert-link {
+    color: #0f4032;
+}
+
+.bs_alert-success {
+    color: #11694f;
+    background-color: #d2f4ea;
+    border-color: #c1f0e2;
+}
+
+.bs_alert-success hr {
+    border-top-color: #acebd8;
+}
+
+.bs_alert-success .bs_alert-link {
+    color: #0a3d2e;
+}
+
+.bs_alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.bs_alert-info hr {
+    border-top-color: #abdde5;
+}
+
+.bs_alert-info .bs_alert-link {
+    color: #062c33;
+}
+
+.bs_alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.bs_alert-warning hr {
+    border-top-color: #ffe8a1;
+}
+
+.bs_alert-warning .bs_alert-link {
+    color: #533f03;
+}
+
+.bs_alert-danger {
+    color: #792424;
+    background-color: #fbdada;
+    border-color: #f9cbcb;
+}
+
+.bs_alert-danger hr {
+    border-top-color: #f6b4b4;
+}
+
+.bs_alert-danger .bs_alert-link {
+    color: #521818;
+}
+
+.bs_alert-light {
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+}
+
+.bs_alert-light hr {
+    border-top-color: #ececf6;
+}
+
+.bs_alert-light .bs_alert-link {
+    color: #686868;
+}
+
+.bs_alert-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+
+.bs_alert-dark hr {
+    border-top-color: #b9bbbe;
+}
+
+.bs_alert-dark .bs_alert-link {
+    color: #040505;
+}
+
+.bs_fade {
+    transition: opacity 0.15s linear;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .bs_fade {
+        transition: none;
+    }
+}
+
+.bs_fade:not(.bs_show) {
+    opacity: 0;
+}
